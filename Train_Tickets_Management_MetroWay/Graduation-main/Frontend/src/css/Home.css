@@ -1,0 +1,28 @@
+/* Home.css */
+.home-container {
+    padding: 50px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.home-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1890ff;
+}
+
+.home-card {
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logout-btn {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+}

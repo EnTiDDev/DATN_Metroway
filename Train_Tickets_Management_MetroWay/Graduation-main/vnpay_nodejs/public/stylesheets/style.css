@@ -1,0 +1,18 @@
+body {
+  padding: 16px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Responsive helpers for demo pages */
+.table-responsive { overflow-x: auto; }
+.container { width: 100%; max-width: 960px; }
+
+@media (max-width: 768px) {
+  body { padding: 12px; }
+  .container { max-width: 100%; }
+  .header .nav-pills { flex-wrap: wrap; gap: 6px; }
+}
